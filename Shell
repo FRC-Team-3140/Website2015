@@ -1,0 +1,68 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+    <style>
+    	.top-bar {
+    		background-color: #006699;
+    	}
+    	.top-bar>.top-bar-left>.menu {
+    		background-color: #006699;
+    	}
+    </style>
+  </head>
+  <body>
+
+
+<!-- HEADER: PUT IN HEADER -->
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li class="menu-text"><a href="#"><img src="3140_logo.png" style="width: 50%; height: 50%;"></a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Sponsors</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+<!-- FOOTER -->
+
+    <div class="callout large secondary">
+      <div class="row">
+        <div class="large-4 columns">
+          <h5>FIND US</h5>
+          <p>Email - team3140@gmail.com</p>
+          <p>Location - 11237 Kingston Pike, Farragut TN</p>
+        </div>
+        <div class="large-3 large-offset-2 columns">
+          <ul class="menu vertical">
+            <li><a href="https://twitter.com/FFlagship">Twitter</a></li>
+            <li><a href="https://www.facebook.com/groups/200857819947904/?ref=br_tf">Facebook</a></li>
+            <li><a href="https://www.youtube.com/user/Team3140Flagship">YouTube</a></li>
+            <li><a href="https://www.kickstarter.com/projects/2053448261/fund-flagship-3140s-robot-guts/description">Kickstarter</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
