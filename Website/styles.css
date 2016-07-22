@@ -18,6 +18,7 @@ ul {
 
 ul>li {
     float: left;
+	list-style: none;
 }
 
 ul>li>a>img {
@@ -39,14 +40,37 @@ li a:hover {
 
 .footer {
 	bottom: 0;
-	left: 0;
+	width: 100%;
+	height: 85px;
+	background-color: #333;
+	color: #ffffff;
+}
+
+.body {
+	width: 100%;
+	height: 550px;
 	background-color: white;
 }
 
+.mission {
+	display: inline-block;
+	float: left;
+	padding-left: 2%;
+	padding-top: 5%;	
+}
+
+.revealvideo{
+	display: inline-block;
+	float: center;
+	padding-top: 2%;
+	padding-left: 2%;
+}
+
 .news {
-	width: 100%;
-	height: 275px;
-	background-color: white;
+	display: inline-block;
+	float: right;
+	padding-right: 2%;
+	padding-top: 5%;
 }
 
 .news>h3 {
@@ -74,7 +98,7 @@ h1 {
 
 .about {
 	background-color: white;
-	height: 600px;
+	height: 750px;
 	margin-right: 100px;
 	margin-left: 100px;
 }
@@ -96,7 +120,7 @@ h1 {
 
 .resources {
 	width: 100%;
-	height: 600px;
+	height: 750px;
 	background-color: white;
 	font-family: Garamond;
 }
@@ -110,9 +134,5 @@ h1 {
 }
 
 .contacts>.map {
-	margin-left: 25%;
-}
-
-.contacts>.map>h2 {
-	margin-right: 25%;
+	
 }
