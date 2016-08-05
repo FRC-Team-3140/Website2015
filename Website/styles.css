@@ -44,6 +44,7 @@ li a:hover {
 	height: 85px;
 	background-color: #333;
 	color: #ffffff;
+	text-align: center;
 }
 
 .body {
@@ -123,6 +124,7 @@ h1 {
 	height: 750px;
 	background-color: white;
 	font-family: Garamond;
+	text-align: center;
 }
 
 .contacts {
