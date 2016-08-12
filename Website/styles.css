@@ -5,7 +5,6 @@ padding: 0;
 
 body {
 	min-height: 100%;
-	background-color: #006699;
 }
 
 ul {
@@ -19,6 +18,8 @@ ul {
 ul>li {
     float: left;
 	list-style: none;
+	font-family: Impact;
+	font-size: 20px;
 }
 
 ul>li>a>img {
@@ -36,6 +37,12 @@ li a {
 
 li a:hover {
 	background-color: #111;
+	transition: all 0.5s ease-in;
+}
+
+.orbit-caption {
+	text-align: center;
+	font-size: 28px;
 }
 
 .footer {
@@ -50,14 +57,15 @@ li a:hover {
 .body {
 	width: 100%;
 	height: 550px;
-	background-color: white;
+	background-color: 1F325A;
 }
 
 .mission {
 	display: inline-block;
 	float: left;
-	padding-left: 2%;
-	padding-top: 5%;	
+	padding-left: 1%;
+	padding-top: 5%;
+	color: white;
 }
 
 .revealvideo{
@@ -72,6 +80,7 @@ li a:hover {
 	float: right;
 	padding-right: 2%;
 	padding-top: 5%;
+	color: white;
 }
 
 .news>h3 {
@@ -80,7 +89,7 @@ li a:hover {
 
 h1 {
 	text-align: center;
-	font-family: Garamond;
+	font-family: Helvetica;
 }
 
 .newstopic {
@@ -90,6 +99,10 @@ h1 {
 
 .links {
 	text-align: center;
+}
+
+.marketing {
+	background-color: #1F325A
 }
 
 .marketing>.links>a>img {
