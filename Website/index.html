@@ -14,7 +14,10 @@
         
         <link rel="shortcut icon" href="favicon.ico" >
         <link rel="icon" type="image/gif" href="animated_favicon1.gif" >
-        
+         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+       <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <link type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>-->
         <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
 <link href='http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet' type='text/css'>
         
@@ -24,16 +27,29 @@
     <body>
     
     <!-- NAVIGATION BAR -->
-        <ul>
-        	<li><img src="3140_logo.png" style="height:10%; padding-right:3%;"/></li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="sponsors.html">Sponsors</a></li>
-            <li><a href="resources.html">Resources</a></li>
-            <li><a href="contacts.html">Contacts</a></li>
-            <li><a href="events.html">Events</a></li>
-			<li style="font-size:60px; padding-right: 3%; color:white; float:right;"><em> FHS FLAGSHIP 3140</em></li>
-        </ul>
+    <div class="title-bar" data-responsive-toggle="flagship-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle></button>
+  <div class="title-bar-titlem float-right"><em>Flagship 3140</em></div>
+</div>
+
+<div class="top-bar" id="flagship-menu">
+  <div class="top-bar-left">
+    <ul class="menu">
+        <li class="hide-for-small-only"><img src="3140_logo.png" style="height:10%; padding-right:3%;"/></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="sponsors.html">Sponsors</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+        <li><a href="events.html">Events</a></li>
+    </ul>
+  </div>
+  <div class="top-bar-right hide-for-small-only">
+    <ul class="menu">
+    <li style="font-family: Impact; font-size:60px; padding-right: 3%; color:white; float:right;"><em> FHS FLAGSHIP 3140</em></li>
+    </ul>
+  </div>
+</div>
 
 	<!-- IMAGE GALLERY -->
         
@@ -79,32 +95,40 @@
 
 	<!-- BODY -->
 	<div class="body">
-		<div class="mission">
-			<h1>ABOUT TEAM 3140</h1>
-			<h5 style="text-align: center">Team 3140 Flagship's goal is </h5>
-			<h5 style="text-align: center">to promote STEM in our community,</h5>
-			<h5 style="text-align: center">and to teach life skills that our diverse students can</h5>
-			<h5 style="text-align: center">carry with them in their future professional and personal lives.</h5>
+    <div class="container">
+    <div class="row">
+        <div class="small-12 medium-4 large-4 columns">
+		  <div class="mission">
+			<h2>ABOUT TEAM 3140</h2>
+			<p style="text-align: center">Team 3140 Flagship's goal is to promote STEM in our community, and to teach life skills that our diverse students can carry with them in their future professional and personal lives.</p>
 			<h3 style="text-align: center">For more information, click <a href="about.html">here</a>.</h3>
-		</div>
-		<div class="revealvideo">
-			<iframe width="750" height="480" src="https://www.youtube.com/embed/Zr0swhDnETQ" frameborder="0" allowfullscreen></iframe>
-		</div>
-        <div class="news">
-        	<h1>NEWS & EVENTS</h1>
-        	
-        	<p class="newstopic"><strong>&middot; August 18th: </strong>Team 3140 Robotics Open House</p>
-        
-			<p class="newstopic"><strong>&middot; September 1st: </strong>UT Football Concessions</p>
-		
-			<p class="newstopic"><strong>&middot; September 8th: </strong>FHS vs. Bearden Football Game</p>
-		
-        	<h3>For the full calendar, click <a href="events.html"><strong>here</strong></a>.</h3>
+		  </div>
         </div>
-	</div>
+
+        <div class="small-12 medium-4 large-4 columns">
+            <div class="revealvideo">
+                 <iframe  src="https://www.youtube.com/embed/Zr0swhDnETQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="small-12 medium-4 large-4 columns">
+            <div class="news">
+        	   <h2>NEWS & EVENTS</h2>
+        	
+                <p class="newstopic"><strong>&middot; August 18th: </strong>Team 3140 Robotics Open House</p>
+        
+                <p class="newstopic"><strong>&middot; September 1st: </strong>UT Football Concessions</p>
+		
+                <p class="newstopic"><strong>&middot; September 8th: </strong>FHS vs. Bearden Football Game</p>
+		
+        	   <h3 style="text-align: center">For the full calendar, click <a href="events.html">here</a>.</h3>
+            </div>
+	   </div>
+    </div>
 
         
     <!-- MARKETING LINKS -->
+    <div class="row">
     	<div class="marketing">
     		<div class="links">
     			<a href="https://www.kickstarter.com/projects/2053448261/fund-flagship-3140s-robot-guts/description" >
@@ -116,8 +140,9 @@
     				<a href="https://www.facebook.com/groups/200857819947904/?ref=br_tf" >
     				<img src="Images/facebook_rounded.png" alt="Facebook" style="padding-left: 25px;" /></a>
     		</div>
-			<br />
+			<br/>
     	</div>
+    </div>
 
     <!-- FOOTER -->
         <footer class="footer">
